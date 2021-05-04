@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/stevenmatthewt/semantics/output"
-	"github.com/stevenmatthewt/semantics/tag"
+	"github.com/singyiu/semantics/output"
+	"github.com/singyiu/semantics/tag"
 )
 
 // GetLatestTag returns the latest tag that exists according to git

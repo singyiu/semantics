@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 
-	"github.com/stevenmatthewt/semantics/bump"
-	"github.com/stevenmatthewt/semantics/commit"
-	"github.com/stevenmatthewt/semantics/git"
-	"github.com/stevenmatthewt/semantics/output"
-	"github.com/stevenmatthewt/semantics/tag"
+	"github.com/singyiu/semantics/bump"
+	"github.com/singyiu/semantics/commit"
+	"github.com/singyiu/semantics/git"
+	"github.com/singyiu/semantics/output"
+	"github.com/singyiu/semantics/tag"
 )
 
 // CLIFlags stores all flags that can be passed through the CLI
@@ -74,6 +75,9 @@ func main() {
 			output.Fatal(err)
 		}
 	}
+
+	output.Stdout("Done")
+	os.Exit(0)
 }
 
 func getFlags() (flags CLIFlags) {

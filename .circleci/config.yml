@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.10
-    working_directory: /go/src/github.com/stevenmatthewt/semantics
+    working_directory: /go/src/github.com/singyiu/semantics
     steps:
       - checkout
       - run:

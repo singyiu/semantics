@@ -5,9 +5,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/stevenmatthewt/semantics/commit"
-	"github.com/stevenmatthewt/semantics/output"
-	"github.com/stevenmatthewt/semantics/tag"
+	"github.com/singyiu/semantics/commit"
+	"github.com/singyiu/semantics/output"
+	"github.com/singyiu/semantics/tag"
 )
 
 // GetCommitsSinceTag returns a Commits object with all commits

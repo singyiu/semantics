@@ -1,11 +1,11 @@
 # semantics
 A utility written in Golang to automatically handle Semantic Versioning in a CI environment.
 
-[![CircleCI](https://circleci.com/gh/stevenmatthewt/semantics/tree/master.svg?style=shield)](https://circleci.com/gh/stevenmatthewt/semantics/tree/master)
+[![CircleCI](https://circleci.com/gh/singyiu/semantics/tree/master.svg?style=shield)](https://circleci.com/gh/singyiu/semantics/tree/master)
 
 ## Install
 
-`go get github.com/stevenmatthewt/semantics`
+`go get github.com/singyiu/semantics`
 
 ## Use
 
@@ -16,7 +16,7 @@ cd <your github repo>
 semantics
 ```
 
-Check out the [wiki](https://github.com/stevenmatthewt/semantics/wiki) for more information on using `semantics`.
+Check out the [wiki](https://github.com/singyiu/semantics/wiki) for more information on using `semantics`.
 
 ## What it does
 

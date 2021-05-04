@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/stevenmatthewt/semantics/tag"
+	"github.com/singyiu/semantics/tag"
 )
 
 type test struct {

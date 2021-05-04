@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/stevenmatthewt/semantics/bump"
+	"github.com/singyiu/semantics/bump"
 )
 
 type test struct {
