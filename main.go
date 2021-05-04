@@ -76,7 +76,7 @@ func main() {
 		}
 	}
 
-	output.Stdout("Done")
+	output.Stdout("Exiting peacefully")
 	os.Exit(0)
 }
 
